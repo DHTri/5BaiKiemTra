@@ -22,6 +22,8 @@ int kt(int n)
 
 int main()
 {
+    freopen("SNUM.INP" , "r" , stdin);
+    freopen("SNUM.OUT" , "w" , stdout);
     int t;cin>>t;
     while(t--)
     {
