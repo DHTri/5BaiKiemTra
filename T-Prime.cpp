@@ -22,6 +22,8 @@ int kt(int n)
 
 int main()
 {
+    freopen("TPR.INP" , "r" , stdin);
+    freopen("TPR.OUT" , "w" , stdout);
     int n;cin>>n;
     int d = 0;
     for(int i =4;i<=n;i++)
