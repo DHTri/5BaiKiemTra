@@ -18,6 +18,8 @@ int demuoc(int n)
 
 int main()
 {
+    freopen("UOCSO.INP" , "r" , stdin);
+    freopen("UOCSO.OUT" , "w" , stdout);
     int n;cin>>n;
     int a[n];
     int max = 0, res = 0;
