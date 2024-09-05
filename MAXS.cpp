@@ -4,6 +4,8 @@ using ll = long long;
 
 int main()
 {
+    freopen("MAXS.INP" , "r" , stdin);
+    freopen("MAXS.OUT" , "w" , stdout);
     string s;
     cin>>s;
     int t = 0, res = 0;
